@@ -18,7 +18,7 @@ function Hero() {
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
           className="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white  focus:outline-none focus:ring  sm:w-auto"
-          href="#"
+          href="/files"
         >
           Get Started
         </a>
