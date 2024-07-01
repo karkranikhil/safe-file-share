@@ -14,7 +14,7 @@ export default function Page() {
       <div class="max-w-xl lg:max-w-3xl text-center mx-auto">
         <a class="block text-primary text-center" href="/">
           <span class="sr-only">Home</span>
-          <Image src='/logo.svg' width={150} height={100} className="mx-auto"/>
+          <Image src='/logo.svg' width={150} height={100} className="mx-auto" alt="file share app logo"/>
         </a>
 
         <h1 class="mt-6 text-2xl font-bold text-primary sm:text-3xl md:text-4xl">
@@ -24,7 +24,7 @@ export default function Page() {
         <p class="mt-4 leading-relaxed text-gray-500 pb-5">
           {Constant.desc}
         </p>
-        <div className="mx-auto">
+        <div className="mx-auto siginpage">
             <SignIn className="mx-auto"/>
         </div>
         
